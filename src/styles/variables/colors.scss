@@ -1,0 +1,33 @@
+:root {
+  --main-text-color: #EAEAEC;
+
+  --gray-10: #D7D8DB;
+  --gray-20: #878B91;
+  --gray-30:  #494B50;
+
+  --yellow-100: #412102;
+  --yellow-70: #A85809;
+  --yellow-50: #FBB26A;
+  --yellow-30: #FCCC9C;
+  --yellow-faded: #C8BAAD;
+
+  --black-100: #0E0E11;
+  --black-90: #17181C;
+  --black-80: #1C1D21;
+  --black-70: #2C2D30;
+
+  --black-blur: rgba(14, 15, 18, 0.85);
+  --black-transparent: rgba(14, 14, 17, 0.6);
+  --dust: rgba(39, 39, 43, 0.6);
+
+  --bg-gradient-y-g: linear-gradient(97.7deg, #FBB065 11.84%, #F6F057 47.1%, #88DA1F 81.16%);
+  --bg-gradient-g-b: linear-gradient(97.7deg, #65FB7E 11.84%, #57F6BC 38.44%, #1FB8DA 81.16%);
+  --bg-gradient-g-b-alt: linear-gradient(97.7deg, #E2FB65 11.84%, #92F657 47.1%, #1FDAAE 81.16%);
+  --bg-gradient-r-y: linear-gradient(97.7deg, #FB7E65 11.84%, #F6BC57 47.1%, #DACD1F 81.16%);
+
+  --bg-gray-alt: #1c1d22;
+  --bg-gradient-gray: linear-gradient(135deg, #17181C 0%, #272930 100%);
+  --bg-gradient-gray-light: linear-gradient(135deg, #1c1c21 0%, #272930 100%);
+  --bg-gradient-gray-alt: linear-gradient(108deg, #272930 0%, #1D1D20 100%);
+  --bg-gradient-purple: linear-gradient(315deg, #2C042D 0%, #1F1252 51.39%, #004C77 100%), linear-gradient(137deg, #17181C 0%, #272930 100%), #17181C;
+}

@@ -1,0 +1,59 @@
+.root {
+  margin-top: 150px;
+  @media (min-width: 768px) {
+    margin-top: 220px;
+  }
+}
+
+.container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 15px;
+  @media (min-width: 768px) {
+    margin-top: 80px;
+  }
+  @media (min-width: 1024px) {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  @media (min-width: 768px) {
+    gap: 40px;
+    padding: 40px;
+  }
+  @media (min-width: 1024px) {
+    gap: 60px;
+  }
+  @media (min-width: 1440px) {
+    gap: 70px;
+  }
+}
+
+.text {
+  margin-top: 15px;
+  @media (min-width: 768px) {
+    margin-top: 20px;
+  }
+}
+
+.icon-wrapper {
+  align-self: flex-end;
+  justify-self: end;
+  & svg {
+    height: 52px;
+    width: 52px;
+    @media (min-width: 768px) {
+      height: 64px;
+      width: 64px;
+    }
+  }
+}

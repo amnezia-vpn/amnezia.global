@@ -1,0 +1,39 @@
+.rootLinkWrapper {
+  display: flex;
+  text-decoration: none;
+  &:hover {
+    .icon-wrapper {
+      opacity: 1;
+    }
+  }
+}
+
+.support-card {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  @media (screen and min-width: 768px) {
+    min-height: 350px;
+    padding: 60px;
+    gap: 70px;
+  }
+}
+
+.text {
+  margin-top: 15px;
+  @media (min-width: 768px) {
+    margin-top: 20px;
+  }
+}
+
+.icon-wrapper {
+  justify-self: end;
+  transition: opacity .2s;
+  opacity: 1;
+  @media (min-width: 768px) {
+    opacity: 0;
+  }
+}

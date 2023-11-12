@@ -1,0 +1,38 @@
+.root {
+
+}
+
+.label {
+  color: var(--white-text, #D7D8DB);
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+    text-align: start;
+  }
+}
+
+.links-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 25px;
+  @media (min-width: 1440px) {
+    flex-direction: column;
+    row-gap: 15px;
+    :last-child {
+      margin-top: 10px;
+    }
+  }
+}
+
+.link {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.36px;
+}

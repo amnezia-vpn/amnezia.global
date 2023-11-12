@@ -1,0 +1,75 @@
+.button {
+  height: 60px;
+  //font-size: inherit;
+  color: var(--yellow-50);
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    & .icon-button {
+      background-color: rgba(255, 255, 255, 0.12);
+    }
+  }
+}
+
+.icon-button {
+  margin-left: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 16px;
+  transition: background-color .2s ease;
+}
+
+.rotate-icon-180 {
+  & svg {
+    transform: rotate(180deg); transition: all 0.1s linear;
+  }
+}
+
+.rotate-icon-0 {
+  & svg {
+    transform: rotate(0deg); transition: all 0.1s linear;
+  }
+}
+
+.dropdown {
+  padding: 30px;
+  background: #17181C;
+  border-radius: 20px;
+  border: none;
+  & > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  //& > div :not(:last-child) {
+  //  margin-bottom: 10px;
+  //}
+}
+
+.item {
+  border-radius: 16px;
+  color: var(--yellow-50);
+  font-size: 20px;
+  line-height: 150%;
+
+  &[data-hovered] {
+    background-color: transparent;
+    color: var(--yellow-70);
+  }
+
+  &[data-selected] {
+    &, &:hover {
+      background-color: rgba(255, 255, 255, 0.08);
+      color: var(--yellow-50);
+    }
+  }
+}

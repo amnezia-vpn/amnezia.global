@@ -1,0 +1,36 @@
+.root {
+  width: 120px;
+  height: 90px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (screen and min-width: 768px) {
+    justify-content: flex-start;
+    width: 230px;
+    height: 170px;
+  }
+  @media (screen and min-width: 1440px) {
+    width: 194px;
+    height: 144px;
+  }
+
+  a {
+    position: absolute;
+    display: block;
+  }
+
+  img {
+    width: 140px;
+    height: auto;
+    @media (screen and min-width: 768px) {
+      width: 230px;
+      height: auto;
+    }
+    @media (screen and min-width: 1440px) {
+      width: 200px;
+      height: auto;
+    }
+  }
+}

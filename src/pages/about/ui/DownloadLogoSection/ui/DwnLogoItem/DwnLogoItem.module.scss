@@ -1,0 +1,22 @@
+.dwn-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  width: auto;
+  padding: 18px;
+  border-radius: 14px;
+  background: var(--black-90);
+}
+
+.dwn-logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dwn-logo-link {
+  text-align: center;
+  font-weight: 600;
+}

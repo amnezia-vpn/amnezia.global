@@ -1,0 +1,8 @@
+.root {
+  & ::before {
+    background-color: var(--gray-80);
+  }
+  & ::after {
+    background-color: var(--black-70);
+  }
+}

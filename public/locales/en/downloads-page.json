@@ -1,0 +1,16 @@
+{
+  "metaTitle": "Downloads - Amnezia",
+  "metaContent": "Download Amnezia VPN. Downloads for various devices.",
+  "header": "Download Amnezia VPN",
+  "dwnCard": {
+    "forWin32": "For Windows 32-bit",
+    "forWin64": "For Windows 64-bit",
+    "downloadFromSite": "Download APK file",
+    "downloadFromGithub": "Download from GitHub",
+    "oldVersions": "Old versions of the application"
+  },
+  "dwnInfoCard": {
+    "header": "Learn how to start your VPN with Amnezia",
+    "text": "Where to get a server if you don't have one and how to connect it to the application"
+  }
+}

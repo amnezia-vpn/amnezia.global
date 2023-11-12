@@ -1,0 +1,59 @@
+.root {
+  margin-top: 100px;
+}
+
+.root ul {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style: none;
+  @media (min-width: 768px) {
+    padding: 30px;
+  }
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+  @media (min-width: 1440px) {
+    padding: 60px;
+    gap: 40px;
+  }
+}
+
+.root li {
+  @media (min-width: 768px) {
+    display: flex;
+    column-gap: 40px;
+  }
+  @media (min-width: 1024px) {
+    display: block;
+    column-gap: unset;
+    flex: 1;
+  }
+}
+
+.header-text {
+  margin-top: 20px;
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
+  @media (min-width: 1024px) {
+    margin-top: 20px;
+  }
+}
+
+.mainText {
+  margin-top: 10px;
+  @media (min-width: 1024px) {
+    margin-top: 20px;
+  }
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  @media (min-width: 1024px) {
+    height: 24px;
+    width: 24px;
+  }
+}

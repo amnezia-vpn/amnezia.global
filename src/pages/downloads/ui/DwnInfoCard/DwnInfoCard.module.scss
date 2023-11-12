@@ -1,0 +1,42 @@
+.root-link-wrapper {
+  display: block;
+  text-decoration: none;
+  margin-top: 80px;
+  @media (min-width: 768px) {
+    margin-top: 120px;
+  }
+}
+
+.root {
+  padding: 30px;
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 40px;
+  @media (min-width: 768px) {
+    grid-template-columns: 440px auto;
+    padding: 60px;
+  }
+  &:hover {
+    .icon-container {
+      opacity: 1;
+    }
+  }
+}
+
+.icon-container {
+  display: flex;
+  @media (min-width: 768px) {
+    opacity: 0;
+    transition: opacity 0.2s;
+    justify-content: flex-end;
+  }
+}
+
+.mainText {
+  margin-top: 20px;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}

@@ -1,0 +1,57 @@
+.root {
+  margin-top: 60px;
+  @media (min-width: 768px) {
+    margin-top: 100px;
+  }
+}
+
+.header {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1.08px;
+  margin-bottom: 50px;
+}
+
+.label {
+  color: var(--main-text-color);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 120%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.content {
+  color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.item {
+  border-color: var(--black-70);
+}
+
+.chevron {
+  color: var(--gray-10);
+  &[data-rotate] {
+    transform: none;
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+}
+
+.control {
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+p {
+  font-size: 18px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}

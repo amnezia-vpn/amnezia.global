@@ -1,0 +1,35 @@
+.root {
+
+  blockquote {
+    font-size: inherit;
+  }
+
+  & h1 h2, h3 {
+    line-height: 1.2;
+  }
+
+  & h1 {
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  & h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  & h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+.card {
+  padding: 30px;
+}
+
+.accordion-wrapper {
+  margin-top: 40px;
+}

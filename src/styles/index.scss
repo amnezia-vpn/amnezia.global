@@ -1,0 +1,17 @@
+@import "reset";
+@import "fonts";
+@import "variables/colors";
+@import "utilityClasses/general";
+@import "utilityClasses/colors";
+
+// -------------------------------------------------
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  color: #EAEAEC;
+  background-color: #090B10;
+}
+

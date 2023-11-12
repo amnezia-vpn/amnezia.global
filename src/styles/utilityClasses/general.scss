@@ -1,0 +1,164 @@
+// --------------------- FONT SIZE ---------------------
+
+.fz15 {font-size: 15px}
+.fz16 {font-size: 16px}
+.fz18 {font-size: 18px}
+.fz20 {font-size: 20px}
+.fz22 {font-size: 22px}
+.fz24 {font-size: 24px}
+.fz26 {font-size: 26px}
+.fz28 {font-size: 28px}
+.fz30 {font-size: 30px}
+.fz32 {font-size: 32px}
+.fz34 {font-size: 34px}
+.fz48 {font-size: 48px}
+.fz70 {font-size: 70px}
+.fz80 {font-size: 80px}
+
+// --------------------- FONT WIDTH ---------------------
+
+.fw400 {font-weight: 400}
+.fw500 {font-weight: 500}
+.fw600 {font-weight: 600}
+.fw700 {font-weight: 700}
+.fw800 {font-weight: 800}
+.fw900 {font-weight: 900}
+
+// --------------------- LINE HEIGHT ---------------------
+
+.lh100 {line-height: 100%}
+.lh110 {line-height: 110%}
+.lh120 {line-height: 120%}
+.lh130 {line-height: 130%}
+.lh140 {line-height: 140%}
+.lh150 {line-height: 150%}
+
+// ----------------------- HEADERS ------------------------
+
+.h-80 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -0.8px;
+  @media (min-width: 680px) {
+    font-size: 80px;
+    letter-spacing: -1.196px;
+  }
+}
+
+.h-70 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.4px;
+  @media (min-width: 680px) {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+  }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: -0.35px;
+  color: #E9EAEC;
+  @media (min-width: 768px) {
+    font-size: 50px;
+    letter-spacing: -0.5px;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  color: var(--main-text-color);
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--main-text-color);
+  @media (min-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+.main-text {
+  color: var(--main-text-color);
+  font-size: 17px;
+  line-height: 150%;
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.dimmed {
+  color: var(--gray-20);
+}
+
+.link {
+  color: var(--yellow-50);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .2s ease;
+  &:hover {
+    color: var(--yellow-70)
+  }
+}
+
+// ---------------------- ? ----------------------
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-indent-top {
+  margin-top: 10px;
+}
+
+.text-indent-bottom {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+blockquote {
+  font-size: 20px;
+  padding: 20px;
+  background-color: var(--black-70);
+  border-radius: 16px;
+  margin: 30px 0;
+  & > *{
+    margin-bottom: 16px;
+  }
+  & > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+ol {
+  padding: 0;
+  margin: 20px 0 20px 20px;
+  list-style-type: none;
+  counter-reset: li-counter;
+}

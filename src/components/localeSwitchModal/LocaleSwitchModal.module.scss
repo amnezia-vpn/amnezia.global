@@ -1,0 +1,111 @@
+.content {
+  border-radius: 24px 24px 0 0;
+  background-color: var(--black-90);
+  box-shadow: none;
+  @media (min-width: 680px) {
+    border-radius: 24px;
+  }
+}
+
+.body {
+  padding: 30px 46px;
+  @media (min-width: 680px) {
+    padding: 30px;
+  }
+}
+
+.inner {
+  top: unset;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  @media (min-width: 680px) {
+    padding-top: 15vh;
+    top: 0
+  }
+}
+
+.lang-container {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  gap: 20px 0;
+  grid-template-columns: repeat(1, 1fr);
+
+  @media (min-width: 680px) {
+    display: grid;
+    gap: 10px 60px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.item {
+  padding: 12px 0;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 26px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 16px;
+  color: #FBB26A;
+  font-size: 20px;
+
+  &:hover {
+    color: var(--yellow-70)
+  }
+
+  &.active {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+}
+
+.overlay::before {
+  line-height: 26px;
+  font-size: 26px;
+  content: "\2715";
+  position: absolute;
+  color: var(--gray-10);
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.button {
+  height: 40px;
+  //width: 72px;
+  padding: 0 6px;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: inline-block;
+  }
+
+  &:hover {
+    & .icon-button {
+      background-color: rgba(255, 255, 255, 0.12);
+    }
+  }
+}
+
+.icon-button {
+  margin-left: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 16px;
+  transition: background-color .2s ease;
+}

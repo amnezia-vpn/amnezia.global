@@ -1,0 +1,17 @@
+.root {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  font-size: inherit;
+  color: var(--gray-10);
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

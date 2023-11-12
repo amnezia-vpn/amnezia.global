@@ -1,0 +1,53 @@
+.root {
+  color: var(--gray-10);
+}
+
+.header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  font-size: inherit;
+  color: var(--gray-10);
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  margin: 20px 30px;
+  color: var(--main-text-color);
+
+  & > :not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.item {
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 4px 0;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}

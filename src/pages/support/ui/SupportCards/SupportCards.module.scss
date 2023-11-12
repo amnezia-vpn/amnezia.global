@@ -1,0 +1,15 @@
+.root {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
+  @media (screen and min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin-top: 220px;
+    grid-row-gap: 30px;
+  }
+}
+

@@ -1,0 +1,17 @@
+.root {
+
+}
+
+.root a {
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-20);
+  text-align: center;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: background-color .2s ease;
+  &:hover {
+    color: var(--yellow-50);
+  }
+}
