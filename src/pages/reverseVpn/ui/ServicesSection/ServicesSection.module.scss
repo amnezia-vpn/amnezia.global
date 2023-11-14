@@ -1,0 +1,68 @@
+.root {
+  margin-top: 100px;
+  @media (min-width: 680px) {
+    margin-top: 70px;
+  }
+}
+
+.card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 680px) {
+    padding: 60px;
+  }
+}
+
+.header-text {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 110%;
+  @media (min-width: 680px) {
+    font-size: 32px;
+  }
+}
+
+.main-text {
+  margin-top: 20px;
+  color: var(--gray-20);
+}
+
+.text-container {
+  max-width: 580px;
+}
+
+.upper-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  column-gap: 50px;
+  @media (min-width: 680px) {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.logosContainer {
+  position: relative;
+  height: 254px;
+  margin-top: 50px;
+  margin-left: -30px;
+  margin-right: -30px;
+  overflow-x: hidden;
+  @media (min-width: 680px) {
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+  & > img {
+    position: absolute;
+    top: 0;
+    left: -42px;
+  }
+}
+
+.link {
+  font-size: 20px;
+}
+

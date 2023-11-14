@@ -1,0 +1,26 @@
+.root {
+  margin-top: 140px;
+  @media (screen and min-width: 680px) {
+    margin-top: 208px;
+    margin-bottom: 100px;
+  }
+}
+
+.header {
+  text-align: center;
+}
+
+.list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  & svg {
+    height: 60px;
+    width: auto;
+    @media (screen and min-width: 768px) {
+      height: 80px;
+    }
+  }
+}

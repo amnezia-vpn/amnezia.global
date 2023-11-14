@@ -1,0 +1,48 @@
+{
+  "metaTitle": "VPN with Russian IP address - Amnezia",
+  "metaContent": "VPN with a high level of privacy and a Russian IP address. To access sites that are not available in Russia only.",
+  "header": {
+    "mainText": "VPN with Russian IP address",
+    "subtext": "VPN with a high level of privacy and a Russian IP address. To access sites that are available in Russia only."
+  },
+  "plansSection": {
+    "plan1": {
+      "header": "For documents, payment of fines, housing and utilities, taxes",
+      "desc": "Works only for sites that cannot be accessed from non-Russian IP addresses",
+      "speed": "Скорость — 2 Мбит/с",
+      "button":"Free"
+    },
+    "plan2": {
+      "header": "For comfortable work, downloading large files and watching videos",
+      "desc": "Works for any sites",
+      "speed": "Скорость — 20 Мбит/с",
+      "button":"3$/month"
+    }
+  },
+  "paymentMethods": "For ordering and payment use your Telegram account",
+  "downloadCard": {
+    "header": "Use the received key in the Amnezia VPN application",
+    "text": "Amnezia VPN is a simple and free open source application to run a VPN with high privacy requirements"
+  },
+  "servicesSection": {
+    "header": "Government services, bank and telecom operator websites are available free of charge",
+    "text": "When using the free tariff, all other sites will open as if the VPN is turned off. The validity of the free key is 1 month. After expiration, just get a new one also for free",
+    "link": "List of supported websites"
+  },
+  "getStartedSection": {
+    "header": "Simple connection",
+    "step1": {
+      "header": "Go to Telegram to get the key",
+      "text": "The Telegram bot will give you a free key or accept payment and give you an unlimited VPN key"
+    },
+    "step2": {
+      "header": "Download the Amnezia VPN",
+      "text": "These VPN applications are quite reliable and trustworthy"
+    },
+    "step3": {
+      "header": "Connect the dongle in the VPN application",
+      "text": "Start the VPN and import the key you received into it. Done. More detailed instructions ",
+      "link": "here"
+    }
+  }
+}

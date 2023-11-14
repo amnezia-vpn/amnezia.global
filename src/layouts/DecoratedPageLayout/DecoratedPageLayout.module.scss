@@ -46,6 +46,22 @@
   height: 300px;
 }
 
+.map-darker {
+  background: url('/img/hosting-map-full.svg'), radial-gradient(48.30% 61.49% at 50.00% 0.00%, #24262A 0%, #090B10 100%);
+  background-color: #090B10;
+  background-repeat: no-repeat;
+  background-size: auto, 1920px 580px;
+  background-position: top -200px right -600px, top center;
+
+  @media (min-width: 1024px) {
+    background-position: top right -410px, top center;
+  }
+
+  @media (min-width: 1440px) {
+    background-position: calc(50% + 620px) 0, top center;
+  }
+}
+
 .bg-dark {
   background: radial-gradient(48.30% 61.49% at 50.00% 0.00%, #24262A 0%, #16171D 100%);
   background-color: #16171D;

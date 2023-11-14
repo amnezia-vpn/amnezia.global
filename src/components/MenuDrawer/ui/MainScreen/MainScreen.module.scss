@@ -48,4 +48,30 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-button {
+  background-color: transparent;
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  white-space: nowrap;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  & svg {
+    margin-top: 1px;
+  }
 }

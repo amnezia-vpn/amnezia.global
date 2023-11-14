@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 30px;
+}
+
+.header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  font-size: inherit;
+  color: var(--gray-10);
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}

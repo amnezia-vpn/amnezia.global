@@ -11,6 +11,7 @@
   box-shadow: 0px 2px 30px rgba(251, 178, 106, 0.25);
   transition: background-color .2s ease;
   cursor: pointer;
+  text-align: center;
 
   &:hover {
     background-color: var(--yellow-30);

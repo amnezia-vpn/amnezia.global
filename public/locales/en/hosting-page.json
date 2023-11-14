@@ -1,0 +1,41 @@
+{
+  "metaTitle": "Amnezia Hosting",
+  "metaContent": "Amnezia Hosting",
+  "heroMap": {
+    "header": "VPN server from the creators of Amnezia",
+    "text": "In a Tier III data center in the Netherlands. Powered by energy from windmills. EU jurisdiction, payment from the Russian Federation",
+    "button": "4.99 $/mo"
+  },
+  "downloadCard": {
+    "header": "Deploy your VPN, secure document storage, on your server",
+    "text": "Set up Amnezia VPN",
+    "subtext": "A simple and free application, with open source code and high privacy requirements"
+  },
+  "serverSpecs": {
+    "header": "Server specification",
+    "cpu": {
+      "header": "1 × 2,8 GHz",
+      "text": "Intel Xeon CPU",
+      "subtext": "Enough to deploy VPN and file storage while maintaining a minimal price."
+    },
+    "ram": {
+      "header": "1 GB",
+      "text": "RAM"
+    },
+    "ssd": {
+      "header": "60 GB",
+      "text": "SSD",
+      "subtext": {
+        "p1": "Amnezia VPN allows you to install the SFTP protocol on your server for storing and securely exchanging documents.",
+        "p2": "The file storage on the server is connected like a regular folder on a computer via a secure connection."
+      }
+    },
+    "net": {
+      "header": "1 Gbit/s network",
+      "headerSubtext": "+ dedicated IP",
+      "text": "No traffic limitation",
+      "subtext": "Share VPN access with 100 friends, or deploy a VPN for your organization. The connection speed is enough for everyone."
+    }
+  },
+  "paymentMethods": "Secure payments by"
+}

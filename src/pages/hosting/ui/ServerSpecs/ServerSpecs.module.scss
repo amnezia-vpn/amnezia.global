@@ -1,0 +1,133 @@
+.root {
+  margin-top: 140px;
+  @media screen and (min-width: 768px) {
+    margin-top: 208px;
+  }
+}
+
+.cards {
+  margin-top: 50px;
+  display: grid;
+  row-gap: 20px;
+
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+      "cpu"
+      "ram"
+      "ssd"
+      "net";
+
+  @media (min-width: 1200px) {
+    gap: 22px;
+    grid-template-areas:
+      "cpu ssd"
+      "ram ssd"
+      "net net";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  padding: 30px;
+  @media screen and (min-width: 768px) {
+    padding: 60px;
+  }
+}
+
+.colorful-text {
+  display: inline-block;
+  background: var(--bg-gradient-green-orange-hosting);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+/* ---------- cpu ---------- */
+
+.grid-cpu {
+  min-height: 306px;
+  grid-area: cpu;
+}
+
+.cpu-row-with-icon {
+  display: flex;
+  flex-direction: column-reverse;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  & svg {
+    margin-bottom: 20px;
+  }
+}
+
+.cpu-subtext {
+  margin-top: 20px;
+}
+
+/* ---------- ssd ---------- */
+
+.grid-ssd {
+  grid-area: ssd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & svg {
+    margin-bottom: 30px;
+  }
+}
+
+.ssd-subtext {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ---------- ram ---------- */
+
+.grid-ram {
+  grid-area: ram;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------- net ---------- */
+
+.grid-net {
+  grid-area: net;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.net-subtext {
+  margin-top: 10px;
+}
+
+.net-text-section {
+  @media screen and (min-width: 1200px) {
+    max-width: 650px;
+  }
+}
+
+.net-header-subtext {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--gray-20);
+  text-align: start;
+  white-space: nowrap;
+  @media screen and (min-width: 1200px) {
+    text-align: end;
+  }
+}

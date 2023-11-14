@@ -1,10 +1,25 @@
 {
   "languageName": "Русский",
   "navigation": {
+    "products": "Продукты",
+    "amneziaVpn": {
+      "text": "Amnezia VPN",
+      "subtext": "VPN-клиент для создания собственного VPN"
+    },
+    "reverseVpn": {
+      "text": "Amnezia Reverse",
+      "subtext": "Доступ к российским сайтам, недоступным из-за рубежа"
+    },
+    "hosting": {
+      "text": "Amnezia Hosting",
+      "subtext": "Хостинг для создания собственного VPN"
+    },
     "support": "Поддержка",
     "about": "О проекте"
   },
+  "logoSubtext": "Персональный приватный VPN",
   "download": "Скачать",
+  "readMoreButton":"Подробнее об Amnezia VPN",
   "footer": {
     "contacts": "Контакты",
     "allDwnOpt": "Все варианты загрузки"

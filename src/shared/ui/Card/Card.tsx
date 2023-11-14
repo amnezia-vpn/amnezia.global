@@ -4,7 +4,15 @@ import styles from './Card.module.scss';
 
 interface PT {
   children?: ReactNode;
-  bg?: 'gradGray' | 'gradPurple' | 'plainGray' | 'gradGrayAlt' | 'plainGrayAlt' | 'gradGrayLight';
+  bg?:
+    | 'gradGray'
+    | 'gradPurple'
+    | 'plainGray'
+    | 'gradGrayAlt'
+    | 'plainGrayAlt'
+    | 'gradGrayLight'
+    | 'plainGrayVds'
+    | undefined;
   className?: string;
 }
 
@@ -20,6 +28,7 @@ const Card = ({ children, bg = 'gradGray', className = '' }: PT) => {
           [styles.gradPurple]: bg === 'gradPurple',
           [styles.plainGray]: bg === 'plainGray',
           [styles.plainGrayAlt]: bg === 'plainGrayAlt',
+          [styles.plainGrayVds]: bg === 'plainGrayVds',
         },
         className
       )}

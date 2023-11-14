@@ -1,0 +1,73 @@
+.inner {
+  padding-bottom: 20px;
+}
+
+.content {
+  background-color: var(--black-90);
+  box-shadow: none;
+  border-radius: 20px;
+  color: var(--main-text-color);
+  max-height: calc(100vh - (90px)) !important;
+  & > div {
+    max-height: calc(100vh - 90px) !important;
+  }
+}
+
+.body {
+  padding: 0;
+}
+
+.header {
+  background-color: var(--black-90);
+  font-size: 28px;
+  font-weight: 500;
+  max-width: 460px;
+  margin: 30px 30px 0 30px;
+}
+
+.links-container {
+  margin: 20px 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 15px;
+  font-weight: 400;
+  & a {
+    padding: 6px 0;
+  }
+}
+
+.group-title {
+  margin-top: 30px;
+  padding: 0 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.overlay::before {
+  line-height: 26px;
+  font-size: 26px;
+  content: "\2715";
+  position: absolute;
+  color: var(--gray-10);
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon-button {
+  margin-left: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 16px;
+  transition: background-color .2s ease;
+}

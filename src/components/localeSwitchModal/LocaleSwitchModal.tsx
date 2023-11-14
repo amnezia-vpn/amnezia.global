@@ -57,7 +57,7 @@ const LocaleSwitchModal = () => {
       >
         <Languages />
         <span className={styles.iconButton}>
-          <ChevronDown />
+          <ChevronDown size={18} strokeWidth={2.6} />
         </span>
       </button>
     </>

@@ -1,0 +1,28 @@
+.root {
+  margin-top: 320px;
+  @media screen and (min-width: 768px) {
+    margin-top: 150px;
+  }
+}
+
+.text-section {
+  max-width: 580px;
+}
+
+.dwn-btn-container {
+  margin-top: 50px;
+  display: flex;
+}
+
+.text {
+  color: var(--gray-10);
+}
+
+.subtext {
+  color: var(--gray-20);
+  margin-top: 15px;
+  @media screen and (min-width: 768px) {
+    margin-top: 25px;
+  }
+}
+

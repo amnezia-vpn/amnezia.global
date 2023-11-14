@@ -1,6 +1,6 @@
 // import { Navigate, RouteObject } from 'react-router-dom';
 // import Layout from '@src/layouts/Layout/Layout';
-// import MainPage from '@src/pages/main/MainPage';
+// import HostingPage from '@src/pages/main/HostingPage';
 // import DownloadsPage from '@src/pages/downloads/DownloadsPage';
 // import AboutPage from '@src/pages/about/AboutPage';
 // import SupportPage from '@src/pages/support/SupportPage';
@@ -14,7 +14,7 @@
 //   children: [
 //     {
 //       index: true,
-//       element: <MainPage />,
+//       element: <HostingPage />,
 //     },
 //     {
 //       path: 'downloads',
@@ -53,7 +53,7 @@
 //     },
 //     {
 //       path: '/:lang',
-//       element: <MainPage />,
+//       element: <HostingPage />,
 //     },
 //     {
 //       path: ':lang/downloads',
