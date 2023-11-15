@@ -1,0 +1,16 @@
+.root {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  //padding-top: 70px;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+  &:before {
+    content:"";
+  }
+}

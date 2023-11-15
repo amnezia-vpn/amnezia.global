@@ -1,0 +1,87 @@
+.root {
+  margin-top: 100px;
+  @media (min-width: 680px) {
+    margin-top: 170px;
+  }
+}
+
+.card {
+  margin-top: 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 680px) {
+    padding: 60px;
+  }
+}
+
+.header-text {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 110%;
+  @media (min-width: 680px) {
+    font-size: 32px;
+  }
+}
+
+.main-text {
+  margin-top: 20px;
+  color: var(--gray-20);
+}
+
+.text-container {
+  max-width: 580px;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background: #2C2D30;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  @media (min-width: 680px) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.button-bar {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 30px;
+  @media (min-width: 680px) {
+    flex-direction: row;
+    margin-top: 0;
+    align-items: center;
+  }
+}
+
+.button-wrapper {
+  & > a {
+    display: inline-block;
+    width: 100%;
+    @media (min-width: 680px) {
+      width: auto;
+    }
+  }
+}
+
+.download-btn-wrapper {
+  & > a {
+    box-shadow: none;
+  }
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 680px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+}

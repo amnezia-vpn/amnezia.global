@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  @media (min-width: 768px) {
+    margin-top: 190px;
+  }
+}
+
+.wrapper {
+  border-top: 1px solid var(--black-70);
+}

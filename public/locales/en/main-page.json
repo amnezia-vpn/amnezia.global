@@ -1,0 +1,82 @@
+{
+  "metaTitle": "Amnezia - Create your personal VPN",
+  "metaContent": "Create your personal VPN. Amnezia VPN — simple and free app to run a self-hosted VPN with high privacy requirements",
+  "header": {
+    "mainText": "Create your personal VPN",
+    "subtext": "Amnezia VPN — simple and free app to run a self-hosted VPN with high privacy requirements"
+  },
+  "headerDownload": "How to run your VPN with Amnezia",
+  "affiliatedLinks": {
+    "theyWriteAboutAmneziaVPN": "They write about Amnezia VPN"
+  },
+  "protocolsCard": {
+    "header": " Supports modern blocking bypass protocols",
+    "mainText": {
+      "part1": "Popular and reliable OpenVPN and WireGuard.",
+      "part2": " with traffic detection protection and WireGuard performance.",
+      "part3": "OpenVPN over Cloak - works even where other VPNs don't - in China, Iran and Turkmenistan."
+    },
+    "link": "List of supported protocols by platform"
+  },
+  "featuresCard": {
+    "feature1": {
+      "header": "Share your VPN connection to a VPN with anyone",
+      "text": "In a few clicks and with no restrictions"
+    },
+    "feature2": {
+      "header": "Choose which sites will be opened via VPN and which will not",
+      "text": "Split tunneling is available on Windows, Linux and Android"
+    },
+    "feature3": {
+      "header": "Import connection settings for WireGuard and OpenVPN",
+      "text": "For a simplified setup"
+    }
+  },
+  "secureSimpleFreeSection": {
+    "secure": {
+      "header": "Secure",
+      "text": {
+        "part1": "In 2022, Amnezia VPN successfully passed the security audit conducted by 7ASecurity.",
+        "link": "We publish",
+        "part2": " in free access not only the source codes of the client part, but also the source codes of the server part."
+      }
+    },
+    "simple": {
+      "header": "Simple",
+      "text": "Enter the IP-address, username and password of your server, and the program will automatically configure everything to connect via VPN"
+    },
+    "free": {
+      "header": "Free",
+      "text": "With Amnezia VPN you don't connect to our servers and don't pay us anything. To connect you use your own or buy any VPS from any provider. The application is also free."
+    }
+  },
+  "privacyTextSection": {
+    "header": "Your privacy is a priority",
+    "text": "You have full control over your data. The app does not collect or transmit any statistics, logs, or other information about users or their data."
+  },
+  "logsEncryptSection": {
+    "logs": {
+      "header": "Doesn't save logs",
+      "text": "A separate container is started for each VPN protocol. They can be removed in one click. They do not write logs internally and do nothing but their direct task."
+    },
+    "encrypt": {
+      "header": "Uses smart encryption",
+      "text": "Each time the client connects, it generates a new key and a new security certificate and sends them to the server"
+    }
+  },
+  "moreFeaturesSection": {
+    "header": "Besides VPN in Amnezia you can create a lot of interesting things",
+    "tor": {
+      "header": "Site on the Tor Network",
+      "text": "Allows to deploy your own WordPress website on the Tor platform in two clicks of the mouse"
+    },
+    "dns": {
+      "header": "Own DNS server",
+      "text": "To prevent your ISP from knowing your website requests"
+    },
+    "stash": {
+      "header": "Secure storage files",
+      "text": "SFTP server for secure and reliable file transfer over a secure connection"
+    }
+  }
+}

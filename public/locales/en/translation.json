@@ -1,0 +1,64 @@
+{
+  "languageName": "English",
+  "navigation": {
+    "products": "Products",
+    "amneziaVpn": {
+      "text": "Amnezia VPN",
+      "subtext": "VPN-client to run a self-hosted VPN"
+    },
+    "reverseVpn": {
+      "text": "Amnezia Reverse",
+      "subtext": "To access sites that are available in Russia only"
+    },
+    "hosting": {
+      "text": "Amnezia Hosting",
+      "subtext": "Hosting to run a self-hosted VPN"
+    },
+    "support": "Support",
+    "about": "About us"
+  },
+  "logoSubtext": "Personal Private VPN",
+  "download": "Download",
+  "readMoreButton":"Read more about Amnezia VPN",
+  "footer": {
+    "contacts": "Contacts",
+    "allDwnOpt": "All download options"
+  },
+  "instructionsPage": {
+    "metaTitle": "Instructions - Amnezia",
+    "metaContent": "Instructions",
+    "header": {
+      "text": "Instructions"
+    },
+    "legacyInstructionsLink": "Instructions for old versions of the Amnezia App are available here"
+  },
+  "troubleshootingPage": {
+    "metaTitle": "Troubleshooting - Amnezia",
+    "metaContent": "Troubleshooting",
+    "header": {
+      "text": "Troubleshooting"
+    }
+  },
+  "errorCodesPage": {
+    "metaTitle": "Error codes - Amnezia",
+    "metaContent": "Error codes",
+    "header": {
+      "text": "Error codes"
+    }
+  },
+  "notFoundPage": {
+    "header": "Page not found - Amnezia",
+    "text": "It has been moved or never existed. Try to find what you are looking for in the «Support» section.",
+    "button":"Go to «Support»"
+  },
+  "learnMorePage": {
+    "metaTitle": "Learn More about Amnezia",
+    "metaContent": "How Amnezia works, data security, supported platforms etc.",
+    "header": "Learn More about Amnezia"
+  },
+  "techFaqPage": {
+    "metaTitle": "Technical FAQ - Amnezia",
+    "metaContent": "Frequently asked technical questions",
+    "header": "Technical FAQ"
+  }
+}

@@ -1,0 +1,34 @@
+.root {
+  display: block;
+  border-radius: 20px;
+  color: inherit;
+  overflow: hidden;
+}
+
+.grad-gray {
+  background: var(--bg-gradient-gray);
+}
+
+.grad-gray-alt {
+  background: var(--bg-gradient-gray-alt);
+}
+
+.grad-gray-light {
+  background: var(--bg-gradient-gray-light);
+}
+
+.grad-purple {
+  background: var(--bg-gradient-purple);
+}
+
+.plain-gray {
+  background-color: var(--black-70)
+}
+
+.plain-gray-alt {
+  background-color: var(--bg-gray-alt)
+}
+
+.plain-gray-vds {
+  background-color: var(--bg-gray-vds)
+}

@@ -1,0 +1,35 @@
+.root {
+  & {
+    color: inherit;
+    cursor: pointer;
+    transition: .2s;
+  }
+}
+
+.link-underline  {
+  &:link, &:visited {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow-70);
+  }
+  &:hover {
+    color: var(--yellow-70)
+  }
+}
+
+.link-dark {
+  text-decoration: none;
+  color: var(--yellow-70);
+  &:hover {
+    text-decoration: underline;
+  }
+  text-decoration-color: var(--yellow-70)
+}
+
+.link-light {
+  text-decoration: none;
+  color: var(--yellow-50);
+  &:hover {
+    text-decoration: none;
+    color: var(--yellow-70);
+  }
+}

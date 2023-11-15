@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  & a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 180px;
+  }
+}
+
+.badges-wrapper {
+  max-width: 380px;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 15px;
+
+  @media (screen and min-width: 768px) {
+    justify-content: flex-start;
+  }
+}
+
+.label {
+  color: var(--white-text, #D7D8DB);
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+  @media (screen and min-width: 768px) {
+    text-align: start;
+  }
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  width: 180px;
+}
+
+.link {
+  font-size: 18px;
+  text-align: center;
+  @media (screen and min-width: 768px) {
+    text-align: start;
+  }
+  letter-spacing: 0.36px;
+}

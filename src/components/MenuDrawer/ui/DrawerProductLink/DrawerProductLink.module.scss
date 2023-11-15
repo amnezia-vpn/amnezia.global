@@ -1,0 +1,26 @@
+.item {
+  font-family: 'IBM Plex Sans', sans-serif;
+  display: flex;
+  padding: 10px 15px;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.text {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.subtext {
+  color: var(--gray-10);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 140%;
+}

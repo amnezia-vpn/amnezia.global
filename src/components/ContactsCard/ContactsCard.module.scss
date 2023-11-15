@@ -1,0 +1,31 @@
+.root {
+  padding: 20px;
+}
+
+.label {
+  font-size: 20px;
+  color: var(--gray-10);
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  @media (screen and min-width: 768px) {
+    gap: 60px;
+  }
+}
+
+.contact-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & svg {
+    width: auto;
+    height: 36px;
+    @media (screen and min-width: 768px) {
+      height: 52px;
+    }
+  }
+}

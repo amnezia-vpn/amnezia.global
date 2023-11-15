@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.text-wrapper {
+
+}
+
+.header {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--main-text-color);
+}
+
+.subtext {
+  margin-top: 5px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--gray-20);
+}
+
+.logo-wrapper {
+  & > svg {
+    height: 79px;
+    width: 76px;
+    margin-bottom: 8px;
+  }
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

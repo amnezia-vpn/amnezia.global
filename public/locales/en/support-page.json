@@ -1,0 +1,28 @@
+{
+  "metaTitle": "Support - Amnezia",
+  "metaContent": "Support. Here are all the answers to the questions and instructions to make it easier for you to set up your VPN",
+  "header": {
+    "mainText": "Support",
+    "subText": "Here are all the answers to the questions and instructions to make it easier for you to set up your VPN"
+  },
+  "howToCard": {
+    "header": "How to start your VPN",
+    "text": "Where to get a server if you don't have one and how to connect it to the application"
+  },
+  "instructionsCard": {
+    "header": "Instructions",
+    "text": "Setting up the application, working with SSH keys, protocol selection, VPN split tunneling and much more"
+  },
+  "techFaqCard": {
+    "header": "Technical FAQ",
+    "text": "Answers to frequently asked technical questions"
+  },
+  "learnMoreCard": {
+    "header": "Learn more about Amnezia",
+    "text": "How Amnezia works, data security, supported platforms etc."
+  },
+  "contactsCardLabel": "Contact the chat for help if something does not work",
+  "faq": {
+    "header": "Frequently asked questions"
+  }
+}

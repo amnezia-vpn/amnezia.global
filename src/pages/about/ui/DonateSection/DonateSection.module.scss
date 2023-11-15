@@ -1,0 +1,20 @@
+.root {
+  margin-top: 60px;
+}
+
+.links {
+  margin-top: 20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 570px;
+  & > div {
+    word-break: break-all;
+    line-height: 30px;
+  }
+}
+
+.textLink {
+  font-weight: 700;
+}

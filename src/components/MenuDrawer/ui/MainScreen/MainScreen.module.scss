@@ -1,0 +1,77 @@
+.root {
+
+}
+
+.list {
+  list-style: none;
+  margin: 20px 30px;
+  color: var(--main-text-color);
+
+  & > :not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  font-size: inherit;
+  color: var(--gray-10);
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.lang-switch-button-container {
+  margin: 30px 30px 0 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.lang-switch-button {
+  height: 32px;
+  width: 72px;
+  padding: 0 6px;
+  font-size: inherit;
+  color: var(--gray-10);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-button {
+  background-color: transparent;
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  white-space: nowrap;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  & svg {
+    margin-top: 1px;
+  }
+}

@@ -1,0 +1,71 @@
+.root {
+  margin-top: 80px;
+}
+
+.dwn-logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 15px;
+  row-gap: 30px;
+}
+
+.dwn-button {
+  border-radius: 16px;
+  color: inherit;
+  background-color: var(--black-70);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 22px;
+  cursor: pointer;
+  &:hover {
+    .iconWrapper {
+      background-color: rgba(255, 255, 255, 0.12);
+    }
+  }
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+.modal-content {
+  border-radius: 24px 24px 0 0;
+  background-color: var(--black-90);
+  box-shadow: none;
+  @media (min-width: 680px) {
+    border-radius: 24px;
+  }
+}
+.modal-body {
+  padding: 30px;
+}
+
+.overlay::before {
+  line-height: 26px;
+  font-size: 26px;
+  content: "\2715";
+  position: absolute;
+  color: var(--gray-10);
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.inner {
+  top: unset;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  @media (min-width: 680px) {
+    padding-top: 15vh;
+    top: 0
+  }
+}

@@ -1,0 +1,19 @@
+.root {
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 4px 0;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.12);
+}

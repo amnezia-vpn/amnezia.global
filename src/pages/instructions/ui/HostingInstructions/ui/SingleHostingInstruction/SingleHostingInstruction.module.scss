@@ -1,0 +1,31 @@
+.root {
+  margin-top: 20px;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.link-icon {
+  
+}
+
+.section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  line-height: 150%;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.subtext {
+  color: var(--gray-20);
+  font-size: 15px;
+  font-weight: 400;
+}

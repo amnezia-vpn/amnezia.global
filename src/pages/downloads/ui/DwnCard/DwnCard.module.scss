@@ -1,0 +1,34 @@
+.root {
+  border-radius: 20px;
+  margin-top: 40px;
+  background: linear-gradient(135deg, #0B0C0E 0%, #121317 100%), #17181C;
+  @media (min-width: 768px) {
+    margin-top: 80px;
+  }
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  @media (min-width: 768px) {
+    padding: 50px 60px;
+  }
+}
+
+.card-footer {
+  color: var(--yellow-70);
+  font-size: 14px;
+  line-height: 20px;
+  display: none;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 60px 10px 60px;
+  }
+}

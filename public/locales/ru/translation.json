@@ -1,0 +1,64 @@
+{
+  "languageName": "Русский",
+  "navigation": {
+    "products": "Продукты",
+    "amneziaVpn": {
+      "text": "Amnezia VPN",
+      "subtext": "VPN-клиент для создания собственного VPN"
+    },
+    "reverseVpn": {
+      "text": "Amnezia Reverse",
+      "subtext": "Доступ к российским сайтам, недоступным из-за рубежа"
+    },
+    "hosting": {
+      "text": "Amnezia Hosting",
+      "subtext": "Хостинг для создания собственного VPN"
+    },
+    "support": "Поддержка",
+    "about": "О проекте"
+  },
+  "logoSubtext": "Персональный приватный VPN",
+  "download": "Скачать",
+  "readMoreButton":"Подробнее об Amnezia VPN",
+  "footer": {
+    "contacts": "Контакты",
+    "allDwnOpt": "Все варианты загрузки"
+  },
+  "instructionsPage": {
+    "metaTitle": "Инструкции - Amnezia",
+    "metaContent": "Инструкции",
+    "header": {
+      "text": "Инструкции"
+    },
+    "legacyInstructionsLink": "Инструкции для старых версий приложения доступны здесь"
+  },
+  "troubleshootingPage": {
+    "metaTitle": "Решение проблем - Amnezia",
+    "metaContent": "Решение проблем",
+    "header": {
+      "text": "Решение проблем"
+    }
+  },
+  "errorCodesPage": {
+    "metaTitle": "Коды ошибок - Amnezia",
+    "metaContent": "Коды ошибок",
+    "header": {
+      "text": "Коды ошибок"
+    }
+  },
+  "notFoundPage": {
+    "header": "Страница не найдена - Amnezia",
+    "text": "Она была перемещена или никогда не существовала. Попробуйте найти, что искали, в разделе «Поддержка».",
+    "button":"Перейти к «Поддержке»"
+  },
+  "learnMorePage": {
+    "metaTitle": "Подробнее о приложении Amnezia",
+    "metaContent": "Принцип работы, безопасность данных, поддерживаемые платформы и т.д.",
+    "header": "Подробнее о приложении Amnezia"
+  },
+  "techFaqPage": {
+    "metaTitle": "Технический FAQ - Amnezia",
+    "metaContent": "Часто задаваемые технические вопросы",
+    "header": "Технический FAQ"
+  }
+}

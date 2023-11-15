@@ -1,0 +1,91 @@
+.root {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 15px;
+  @media (min-width: 768px) {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    padding: 30px;
+  }
+  @media (min-width: 1440px) {
+    padding: unset;
+  }
+}
+
+.text {
+  margin-top: 15px;
+  @media (min-width: 768px) {
+    margin-top: 20px;
+  }
+}
+
+.logsCard {
+  & section {
+    @media (min-width: 1440px) {
+      padding: 0 60px;
+    }
+  }
+  & svg {
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+    align-self: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    @media (min-width: 768px) {
+      max-width: unset;
+      margin-top: 70px;
+      margin-bottom: unset;
+    }
+    @media (min-width: 1024px) {
+      margin-top: 80px;
+      margin-bottom: 28px;
+    }
+    @media (min-width: 1440px) {
+      padding: 0 20px;
+      margin-top: 55px;
+      margin-bottom: unset;
+    }
+  }
+  @media (min-width: 1440px) {
+    padding: 60px 0 34px 0;
+  }
+}
+
+.encryptCard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  & > * {
+    text-align: center;
+  }
+  @media (min-width: 1440px) {
+    padding: 60px;
+  }
+}
+
+.lock-icon-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & svg {
+    height: auto;
+    width: 158px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    @media (min-width: 768px) {
+      margin-bottom: unset;
+      margin-top: unset;
+    }
+  }
+}

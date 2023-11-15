@@ -1,0 +1,11 @@
+{
+  // config for vite build
+  // affect only one file - vite.config.ts
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.config.ts"]
+}

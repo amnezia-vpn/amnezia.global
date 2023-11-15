@@ -1,0 +1,20 @@
+.app-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  padding: 0 15px;
+
+  @media (min-width: 768px) {
+    & {
+      padding: 0 30px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    & {
+      padding: 0 70px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.page-layout {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 20px;
+  @media (min-width: 1024px) {
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: 250px auto;
+  }
+  @media (min-width: 1440px) {
+    grid-template-columns: 300px auto;
+    column-gap: 54px;
+  }
+}
+
+.nav-col {
+  display: none;
+  @media (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.content-col {
+  margin-top: 20px;
+  @media (min-width: 1024px) {
+    margin-top: 60px;
+  }
+}
+
+.instruction-content {
+  padding-top: 30px;
+  h3 {
+    padding-top: 30px !important;
+    font-size: 25px !important;
+  }
+}
+
+.contacts-card-wrapper {
+  margin-top: 60px;
+  @media (min-width: 768px) {
+    margin-top: 100px;
+  }
+}
