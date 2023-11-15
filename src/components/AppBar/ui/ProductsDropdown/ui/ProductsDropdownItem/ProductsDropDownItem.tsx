@@ -2,7 +2,7 @@ import { Menu } from '@mantine/core';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classNames from 'classnames';
-import styles from './ProductsDropDownItem.module.scss';
+import styles from './ProductsDropdownItem.module.scss';
 
 interface ProductsDropDownItemProps {
   to: string;
