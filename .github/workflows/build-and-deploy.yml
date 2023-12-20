@@ -1,0 +1,37 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  NODEJS_VERSION: 20.10.0
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install Node.js ${{ env.NODEJS_VERSION }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ env.NODEJS_VERSION }}
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build
+      run: npm run build --if-present
+
+    - name: Publish to Cloudflare Pages
+      uses: cloudflare/pages-action@v1
+      with:
+        apiToken: ${{ secrets.CF_API_TOKEN }}
+        accountId: ${{ vars.CF_ACCOUNT_ID }}
+        projectName: amnezia-global
+        directory: ./dist
+        branch: master
+        wranglerVersion: '3'
