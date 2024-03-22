@@ -11,6 +11,7 @@ export function getTemplate({
 
     <head>
       <meta charset="utf-8">
+      <meta name="robots" content="noindex">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Password Protected Site</title>
       <meta name="description" content="This site is password protected.">
@@ -24,8 +25,9 @@ export function getTemplate({
           flex-direction: column;
           justify-content: center;
           min-height: calc(100vh - 7rem);
-          padding: 1rem 0;
+          padding: 1rem;
           max-width: 600px;
+          margin: 0 auto;
         }
 
         .error {
